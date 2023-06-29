@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-rows: repeat(2, 100px);
+    }
+
+    .container>div>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <div><img src="elizabet.jpg" /></div>
+        <div><img src="donna.jpg" /></div>
+        <div><img src="rita.jpg" /></div>
+        <div><img src="Garbo.jpg" /></div>
+        <div><img src="Vivien.jpg" /></div>
+        <div><img src="monika.jpg" /></div>
+        <div><img src="katty.jpg" /></div>
+        <div><img src="Audrey.jpg" /></div>
+        <div><img src="katrin.jpg" /></div>
+        <div><img src="anita.jpg" /></div>
+
+    </div>
+</body>
+
+</html>
